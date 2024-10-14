@@ -1,0 +1,23 @@
+{
+  "name": "pino-ky",
+  "version": "0.0.0",
+  "type": "module",
+  "exports": "./index.js",
+  "license": "MIT",
+  "repository": "LinusU/pino-ky",
+  "scripts": {
+    "test": "standard"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "peerDependencies": {
+    "ky": "^1.0.0",
+    "pino": "^9.0.0"
+  },
+  "devDependencies": {
+    "ky": "^1.0.0",
+    "pino": "^9.0.0",
+    "standard": "^17.1.2"
+  }
+}
